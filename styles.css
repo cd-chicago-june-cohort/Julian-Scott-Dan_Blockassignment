@@ -1,0 +1,59 @@
+div {
+  /* display */
+    /* block -- takes full line */
+    /* inline -- share the line like text */
+    /* inline-block -- share the line, are still boxes */
+  display: inline-block;
+
+  /* margin (siblings pushing away from each other )*/
+  /*margin: 10px;
+
+  /* padding (parent adding space around children) */
+  padding: 0px;
+
+  /* trick for centering text */
+  text-align: center;  /* horizontal */
+  line-height: 64px;  /* vertical */
+  color:white;
+  font-size: 24px;
+}
+
+#box-1 {
+  background: purple;
+  width: 64px;
+  height: 64px;
+}
+#box-2 {
+  background: magenta;
+  width: 64px;
+  height: 64px;
+}
+#box-3 {
+  background: midnightblue;
+  width: 64px;
+  height: 64px;
+}
+#box-4 {
+  background: teal;
+  width: 64px;
+  height: 64px;
+}
+#box-5{
+  background: orange;
+  height: 300px;
+  width: 150px;
+  margin:3px;
+  left: 10;
+  vertical-align: top;
+}
+
+div.border{
+  border-style: solid;
+  width: 300px;
+  height: 300px;
+  background: gray;
+}
+div.box{
+  margin:20px;
+}
+
